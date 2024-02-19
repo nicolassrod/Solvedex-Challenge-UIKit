@@ -16,6 +16,16 @@
 		37B2DFCE2B7D979600EAB95A /* Solvedex_Challenge_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFCD2B7D979600EAB95A /* Solvedex_Challenge_UIKitTests.swift */; };
 		37B2DFD82B7D979600EAB95A /* Solvedex_Challenge_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFD72B7D979600EAB95A /* Solvedex_Challenge_UIKitUITests.swift */; };
 		37B2DFDA2B7D979600EAB95A /* Solvedex_Challenge_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFD92B7D979600EAB95A /* Solvedex_Challenge_UIKitUITestsLaunchTests.swift */; };
+		37B2DFEA2B7E81C800EAB95A /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFE92B7E81C800EAB95A /* HomeCollectionViewCell.swift */; };
+		37B2DFEC2B7E915000EAB95A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFEB2B7E915000EAB95A /* HomeViewController.swift */; };
+		37B2DFEF2B7ECBEB00EAB95A /* DogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFEE2B7ECBEB00EAB95A /* DogService.swift */; };
+		37B2DFF22B7ECC1400EAB95A /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFF12B7ECC1400EAB95A /* URLs.swift */; };
+		37B2DFF52B7ECC3B00EAB95A /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFF42B7ECC3B00EAB95A /* Dog.swift */; };
+		37B2DFF72B7ECC4C00EAB95A /* DogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFF62B7ECC4C00EAB95A /* DogResponse.swift */; };
+		37B2DFF92B7ECC5A00EAB95A /* DogServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFF82B7ECC5A00EAB95A /* DogServiceError.swift */; };
+		37B2DFFD2B7EFF9600EAB95A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFFC2B7EFF9600EAB95A /* HomeViewModel.swift */; };
+		37B2DFFF2B82CB1500EAB95A /* ImageFetchingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2DFFE2B82CB1500EAB95A /* ImageFetchingManager.swift */; };
+		37B2E0012B82CB4400EAB95A /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2E0002B82CB4400EAB95A /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		37B2DFD32B7D979600EAB95A /* Solvedex Challenge UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solvedex Challenge UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B2DFD72B7D979600EAB95A /* Solvedex_Challenge_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solvedex_Challenge_UIKitUITests.swift; sourceTree = "<group>"; };
 		37B2DFD92B7D979600EAB95A /* Solvedex_Challenge_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solvedex_Challenge_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37B2DFE92B7E81C800EAB95A /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		37B2DFEB2B7E915000EAB95A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		37B2DFEE2B7ECBEB00EAB95A /* DogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogService.swift; sourceTree = "<group>"; };
+		37B2DFF12B7ECC1400EAB95A /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		37B2DFF42B7ECC3B00EAB95A /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		37B2DFF62B7ECC4C00EAB95A /* DogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogResponse.swift; sourceTree = "<group>"; };
+		37B2DFF82B7ECC5A00EAB95A /* DogServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogServiceError.swift; sourceTree = "<group>"; };
+		37B2DFFC2B7EFF9600EAB95A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		37B2DFFE2B82CB1500EAB95A /* ImageFetchingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetchingManager.swift; sourceTree = "<group>"; };
+		37B2E0002B82CB4400EAB95A /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +122,8 @@
 				37B2DFB62B7D979500EAB95A /* AppDelegate.swift */,
 				37B2DFB82B7D979500EAB95A /* SceneDelegate.swift */,
 				37B2DFBA2B7D979500EAB95A /* ViewController.swift */,
+				37B2DFF02B7ECBFE00EAB95A /* Network */,
+				37B2DFE62B7E7DDD00EAB95A /* Home */,
 				37B2DFBC2B7D979500EAB95A /* Main.storyboard */,
 				37B2DFBF2B7D979600EAB95A /* Assets.xcassets */,
 				37B2DFC12B7D979600EAB95A /* LaunchScreen.storyboard */,
@@ -125,6 +147,46 @@
 				37B2DFD92B7D979600EAB95A /* Solvedex_Challenge_UIKitUITestsLaunchTests.swift */,
 			);
 			path = "Solvedex Challenge UIKitUITests";
+			sourceTree = "<group>";
+		};
+		37B2DFE62B7E7DDD00EAB95A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				37B2DFF32B7ECC2D00EAB95A /* Model */,
+				37B2DFED2B7ECBC700EAB95A /* Service */,
+				37B2DFE92B7E81C800EAB95A /* HomeCollectionViewCell.swift */,
+				37B2DFEB2B7E915000EAB95A /* HomeViewController.swift */,
+				37B2DFFC2B7EFF9600EAB95A /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		37B2DFED2B7ECBC700EAB95A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				37B2DFEE2B7ECBEB00EAB95A /* DogService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		37B2DFF02B7ECBFE00EAB95A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				37B2DFF12B7ECC1400EAB95A /* URLs.swift */,
+				37B2DFFE2B82CB1500EAB95A /* ImageFetchingManager.swift */,
+				37B2E0002B82CB4400EAB95A /* CacheManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		37B2DFF32B7ECC2D00EAB95A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37B2DFF42B7ECC3B00EAB95A /* Dog.swift */,
+				37B2DFF62B7ECC4C00EAB95A /* DogResponse.swift */,
+				37B2DFF82B7ECC5A00EAB95A /* DogServiceError.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B2E0012B82CB4400EAB95A /* CacheManager.swift in Sources */,
+				37B2DFEF2B7ECBEB00EAB95A /* DogService.swift in Sources */,
+				37B2DFF72B7ECC4C00EAB95A /* DogResponse.swift in Sources */,
+				37B2DFEA2B7E81C800EAB95A /* HomeCollectionViewCell.swift in Sources */,
 				37B2DFBB2B7D979500EAB95A /* ViewController.swift in Sources */,
+				37B2DFF22B7ECC1400EAB95A /* URLs.swift in Sources */,
+				37B2DFF52B7ECC3B00EAB95A /* Dog.swift in Sources */,
+				37B2DFFD2B7EFF9600EAB95A /* HomeViewModel.swift in Sources */,
 				37B2DFB72B7D979500EAB95A /* AppDelegate.swift in Sources */,
+				37B2DFF92B7ECC5A00EAB95A /* DogServiceError.swift in Sources */,
 				37B2DFB92B7D979500EAB95A /* SceneDelegate.swift in Sources */,
+				37B2DFEC2B7E915000EAB95A /* HomeViewController.swift in Sources */,
+				37B2DFFF2B82CB1500EAB95A /* ImageFetchingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
